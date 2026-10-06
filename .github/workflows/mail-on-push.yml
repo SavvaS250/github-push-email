@@ -26,7 +26,7 @@ jobs:
             User: ${{ github.event.pusher.name }}
             Commit SHA: ${{ github.sha }}
             Commit message: ${{ github.event.head_commit.message }}
-            test push
+            test push3
 
           to: smirnyaginsavva@gmail.com
           from: GitHub Actions <smirnyaginsavva@gmail.com>
